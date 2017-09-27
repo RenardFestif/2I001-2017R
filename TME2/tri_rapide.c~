@@ -1,0 +1,23 @@
+#include "utilitaires_tableaux.h"
+#include <stdlib.h>
+#include <stdio.h>
+
+
+
+void triRapide(int tab[], int n) {
+
+}
+
+
+int partitionner(int tab[], int s, int n)
+	{
+      int p = 0;
+
+
+      return p;
+	}
+
+void triRapideAmeliore(int tab[], int s, int n)
+	{
+
+	}
