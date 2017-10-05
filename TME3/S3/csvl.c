@@ -38,8 +38,12 @@ char **decompose_chaine(char *chaine)
   for(i=0;i<len;i++){
   	nb = nb_char(chaine[i]);
   	tab[i] = (char*) malloc(nb +1 * sizeof(char));
+	tab[i] = chaine[i];
+	  
   }
-  return **tab;
+  tab[i+1] = NULL;
+	
+  return tab;
 }
 
 char *compose_chaine(char **ptab_mots)
